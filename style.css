@@ -1,18 +1,65 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
+:root{
+    --cor1: #001425;
+    --cor2: #224D73;
+    --cor3: #0066BF;
+    --cor4: #4BC8E1;
+}
 
 *{
     margin: 0px;
     padding: 0px;
-    }
+}
+body{
+    background-color: black;
+}
+
+header{   
+    height: 300px;
+    margin: auto;
+    background-color: var(--cor1);
+}
+
+
+.h1cabeçalho{
+    color: var(--cor4);
+    font-size: 2em;
+    padding: 15px;
+    padding-top: 80px;
+    margin-left: 50px;
+}
+
+header > p {
+    font-size: 1.2em;;
+    margin-left: 80px;
+    margin-top: -20px;
+    color: white;
+}
+
+header > nav {
+    text-align: right;
+    margin-top: -160px;
+    margin-right: 20px;
+    
+}
+Nav > a {
+    color: white;
+}
 main{
     min-width: 320px;
-    max-width: 500px;
+    max-width: px;
     margin: auto;
+    background-image: linear-gradient(to top,  var(--cor3), var(--cor1));
+}
+p{
+    line-height: 1.5em;
+    text-indent: 30px;
+    text-align: justify;
 }
 
 section{
-    background-color: rgb(158, 55, 55);
+   
 }
 
 img{
@@ -20,19 +67,55 @@ img{
 }
 
 .imgesquerdo{
-    display: inline-block;
-    width: 200px;
-    height: 200px;
+    width: 400px;    
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .paragrafodireito{
     display: inline-block;
     text-align: justify;
     width: 200px;
-    margin-left: 50px;
+    margin: 0px 20px;
+    color: white;
 }
 
 .pimgdefundo{
     background: black url(imagens/background001.jpg) center center no-repeat fixed;
     background-size: cover;
 }
+
+#habilidades{
+    background:black url(imagens/fundoazul.jpg) center center no-repeat fixed;
+    background-size: cover;
+    
+}
+#habilidades > h1{
+ color: var(--cor4);
+ text-align: center;
+ margin: 40px;
+}
+#imghtml{
+    margin: auto;
+    width: 100px;
+    margin-right: 50px;
+    display: inline-block;
+}
+#imgcss{
+    margin: auto;
+    width: 100px;
+    margin-right: 50px;
+    display: inline-block;
+}
+
+#imgwordpress{
+    margin: auto;
+    width: 100px;
+    margin-right: 50px;
+    display: inline-block;
+}
+
