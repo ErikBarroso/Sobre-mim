@@ -48,7 +48,7 @@ Nav > a {
 }
 main{
     min-width: 320px;
-    max-width: px;
+    max-width: 900px;
     margin: auto;
     background-image: linear-gradient(to top,  var(--cor3), var(--cor1));
 }
@@ -90,33 +90,88 @@ img{
 }
 
 #habilidades{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background:black url(imagens/fundoazul.jpg) center center no-repeat fixed;
     background-size: cover;
-    margin-top: -40px;
+    padding: 10px;
     
 }
+
 #titulohabilidades > h1{
  color: white;
  text-align: center;
  margin: 40px;
 }
-#imghtml{
-    margin: auto;
-    width: 100px;
-    margin-right: 50px;
-    display: inline-block;
-}
-#imgcss{
-    margin: auto;
-    width: 100px;
-    margin-right: 50px;
-    display: inline-block;
+
+#portifolio h1 {
+    color: white;
+    text-align: center;
 }
 
-#imgwordpress{
-    margin: auto;
-    width: 100px;
-    margin-right: 50px;
-    display: inline-block;
+#canal h1{
+    color: white;
+    text-align: center;
 }
 
+#carreira{
+    position: relative;
+    background-color: var(--cor1);
+    padding-bottom: 56.5% ;
+    margin: auto;
+}
+
+#carreira > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+
+#front{
+    position: relative;
+    background-color: var(--cor1);
+    padding-bottom: 56.5% ;
+    margin: auto;
+}
+
+#front > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+#estudo{
+    position: relative;
+    background-color: var(--cor1);
+    padding-bottom: 56.5% ;
+    margin: auto;
+}
+
+#estudo > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+#rotina{
+    position: relative;
+    background-color: var(--cor1);
+    padding-bottom: 56.5% ;
+    margin: auto;;
+}
+
+#rotina > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
