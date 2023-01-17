@@ -92,10 +92,11 @@ img{
 #habilidades{
     background:black url(imagens/fundoazul.jpg) center center no-repeat fixed;
     background-size: cover;
+    margin-top: -40px;
     
 }
-#habilidades > h1{
- color: var(--cor4);
+#titulohabilidades > h1{
+ color: white;
  text-align: center;
  margin: 40px;
 }
