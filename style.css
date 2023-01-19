@@ -21,7 +21,7 @@
     padding: 0px;
 }
 body{
-    background-color: black;
+    background-color: var(--cor2);
 }
 
 header{   
@@ -48,12 +48,10 @@ header > p {
     font-family: var(--font-padrao);
 }
 
-header > nav {
-    text-align: right;
+#icon {
+    text-align: left;    
     margin-top: -160px;
-    margin-right: 20px;
-    font-family: var(--font-padrao);
-    
+    margin-left: 60px;      
 }
 
 nav > a > img {
@@ -61,6 +59,15 @@ nav > a > img {
     height: 30px;
 
 }
+
+#nomes{
+    text-align: right;
+    margin-top: -30px;
+    margin-right: 20px;
+    font-family: var(--font-padrao);
+    
+}
+
 Nav > a {
     color: var(--cor4);
     text-decoration: none;
@@ -68,9 +75,14 @@ Nav > a {
 }
 
 nav > a:hover{
+     padding: 15px;
+    transition-duration: 0.5s;
+}
+
+#nomes a:hover {
     color: var(--cor1);
     background-color: var(--cor3);
-    padding: 5px 5px;
+    padding: 5px;
     text-decoration: underline;
     transition-duration: 0.5s;
     border-radius: 10%;
@@ -78,7 +90,7 @@ nav > a:hover{
 
 main{
     min-width: 320px;
-    max-width: 900px;
+    max-width: 700px;
     margin: auto;
     background-image: linear-gradient(to top,  var(--cor3), var(--cor1));
 }
@@ -86,17 +98,17 @@ main{
 main h1{
     font-family: var(--font-titulos);
     color: var(--cor4);
-    font-size: 2.0em;
+    font-size: 5vh;
     text-align: center;
     font-weight: bolder;
-    background-image: linear-gradient(to right,  var(--cor2), rgba(255, 251, 251, 0));
+    background-image: linear-gradient(to right,  var(--cor1), rgba(255, 251, 251, 0));
     margin: 20px 0px;
 }
 
 main h2{
     font-family: var(--font-padrao);
     color: var(--cor3);
-    font-size: 2.0em;
+    font-size: 4vh;
     text-align: center;
     font-weight: bolder;
 }
@@ -128,6 +140,7 @@ img{
     width: 200px;
     margin: 0px 20px;
     color: white;
+    font-size: 1.8vh;
 }
 
 .pimgdefundo{
@@ -144,6 +157,12 @@ img{
     padding: 10px;    
 }
 
+#imghabilidades{
+    max-width: 400px;
+    min-width: 100px;
+    margin: 20px;
+}
+
 #portifolio h2 {
     margin-bottom: 20px;
     text-align: center;
@@ -157,14 +176,14 @@ img{
 }
 
 #android{
-    max-width: 500px;
-    min-width: 200px;
+    max-width: 300px;
+    min-width: 100px;
     margin: auto;    
 }
 
 #cordel{
-    max-width: 500px;
-    min-width: 200px;
+    max-width: 300px;
+    min-width: 100px;
     margin: auto;
 }
 
@@ -177,9 +196,8 @@ img{
 
 #carreira{
     position: relative;
-    background-color: var(--cor1);
     padding-bottom: 56.5% ;
-    margin: auto;
+    margin: auto;   
 }
 
 #carreira > iframe{
@@ -193,7 +211,6 @@ img{
 
 #front{
     position: relative;
-    background-color: var(--cor1);
     padding-bottom: 56.5% ;
     margin: auto;
 }
@@ -208,7 +225,6 @@ img{
 
 #estudo{
     position: relative;
-    background-color: var(--cor1);
     padding-bottom: 56.5% ;
     margin: auto;
 }
@@ -223,7 +239,6 @@ img{
 
 #rotina{
     position: relative;
-    background-color: var(--cor1);
     padding-bottom: 56.5% ;
     margin: auto;;
 }
@@ -236,14 +251,18 @@ img{
     height: 90%;
 }
 
+#canal {
+    background-color: var(--cor1);
+}
 #canal > p{
     text-align: center;
-    margin: 15px;
+    padding: 11px;    
 }
 
 #canal > p > a{
     color: white;
-    text-decoration: none;   
+    text-decoration: none;  
+       
 }
 #canal > p > a:hover {
     color: var(--cor4);
@@ -254,7 +273,41 @@ img{
     border-radius: 10%;
 }
 
-#instagram h1 {
-    margin: 10px;
-    
+footer{
+    background-color: var(--cor3);    
+}
+footer p {
+    text-align: center;
+    font-size: 0.9em;
+    padding: 10px;
+}
+
+.eu{
+
+}
+
+#baiano{
+    background:black url(imagens/baiano.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+#cettps{
+    background:black url(imagens/cettps.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+#prog{
+    background:black url(imagens/prog.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+#cettps{
+    background:black url(imagens/cettps.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+
+#criacaodeconteudo{
+    background:black url(imagens/criaçãodeconteudo.jpeg) center center no-repeat fixed;
+    background-size: cover;
 }
