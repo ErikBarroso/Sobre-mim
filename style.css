@@ -21,7 +21,8 @@
     padding: 0px;
 }
 body{
-    background-color: var(--cor2);  
+    background-color: var(--cor2);
+    
     
 }
 
@@ -153,8 +154,6 @@ img{
 }
 
 #imghabilidades{
-    max-width: 400px;
-    min-width: 100px;
     margin: 20px;
 }
 
@@ -171,14 +170,12 @@ img{
 }
 
 #android{
-    max-width: 300px;
-    min-width: 100px;
+    width: 300px;
     margin: auto;    
 }
 
 #cordel{
-    max-width: 300px;
-    min-width: 100px;
+    width: 300px;
     margin: auto;
 }
 
@@ -287,7 +284,7 @@ footer p {
 
 
 #headersobremim{
-    background:black url(imagens/eu2.png) center bottom no-repeat scroll;
+    background:black url(imagens/pt.jpg) center top no-repeat scroll;
     background-size: cover;
     height: 800px;
     
@@ -328,6 +325,11 @@ section#baiano{
     margin-bottom: 50px;    
 }
 
+#helen{
+    background:black url(imagens/helen.jpg) center top no-repeat fixed;
+    background-size: cover;
+    margin-bottom: 50px;
+}
 #cettps{
     background:black url(imagens/cettps.jpg) center top no-repeat fixed;
     background-size: cover;
