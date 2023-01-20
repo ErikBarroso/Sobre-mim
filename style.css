@@ -21,9 +21,7 @@
     padding: 0px;
 }
 body{
-    background-color: var(--cor2);
-    height: 100vh;
-    width: 100vh;
+    background-color: var(--cor2);  
     
 }
 
@@ -92,10 +90,9 @@ nav > a:hover{
 }
 
 main{
-    max-width: 12000px;
-    min-width: 400px;
-    widt: 500px;
-    margin: auto;
+    max-width: 600px;
+    min-width: 120px;
+    margin: 0px auto;
     background-image: linear-gradient(to top,  var(--cor3), var(--cor1));
 }
 
@@ -293,7 +290,7 @@ footer p {
     background:black url(imagens/eu2.png) center bottom no-repeat scroll;
     background-size: cover;
     height: 800px;
-    width: 100vh;
+    
 }
 
 
@@ -302,7 +299,7 @@ section{
     padding-bottom: 10vh;
     padding-top: 10vh;
     line-height: 2em;
-    padding-left: 30px;
+    padding:  30px;
     font-family: var(--font-padrao);
     font-size: 2.3vh;
     margin: auto;
@@ -316,7 +313,7 @@ section p{
 section.eu {
     background-color: black;
     box-shadow: inset 6px 6px 6px 13px 0px rgba(0, 0, 0, 0.438);
-    width: 100vh;
+    
 }
 
 section.eu > p {
@@ -324,33 +321,37 @@ section.eu > p {
     display: inline-block;
     padding: 5px;
     text-shadow: 1px 1 px 0px black ;
-    width: 50vh;
 }
 section#baiano{
     background: rgb(0, 0, 0) url(imagens/baiano.jpg) center top no-repeat fixed;
     background-size: cover;
-    
+    margin-bottom: 50px;    
 }
 
 #cettps{
     background:black url(imagens/cettps.jpg) center top no-repeat fixed;
     background-size: cover;
+    margin-bottom: 50px;
 }
 
 #prog{
     background:black url(imagens/prog.jpg) center center no-repeat fixed;
     background-size: cover;
+    margin-bottom: 50px;
 }
 
 #cettps{
     background:black url(imagens/cettps.jpg) center top no-repeat fixed;
     background-size: cover;
+    margin-bottom: 50px;
 }
 
 
 #criacaodeconteudo{
     background:black url(imagens/criacaodeconteudo.jpg) center center no-repeat fixed;
     background-size: cover;
+    margin-bottom: 50px;
+    
 }
 
 h3{
