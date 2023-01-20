@@ -110,7 +110,7 @@ main h1{
 
 main h2{
     font-family: var(--font-padrao);
-    color:var(--cor3);
+    color:white;
     background-image: linear-gradient(to right,  var(--cor2), rgba(255, 251, 251, 0));
     font-size: 2vh;
     text-align: center;
@@ -278,7 +278,7 @@ footer p {
     font-size: 3em;
     text-align: left;
     margin-left: 20px;
-    padding-top: 140px;
+    padding-top: 490px;
 }
 
 
