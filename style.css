@@ -26,7 +26,6 @@ body{
 
 header{   
     height: 300px;
-    margin: auto;
     background-color: var(--cor1);
 }
 
@@ -49,23 +48,22 @@ header > p {
     font-family: var(--font-padrao);
 }
 
-#icon {
-    text-align: left;    
+#icon {   
     margin-top: -160px;
-    margin-left: 60px;      
+    margin-left: 20px;      
 }
 
 nav > a > img {
     width: 30px;
     height: 30px;
-
 }
 
 #nomes{
     text-align: right;
-    margin-top: -30px;
+    margin-top: -25px;
     margin-right: 20px;
     font-family: var(--font-padrao);
+    margin-left: 40px;
     
 }
 
@@ -99,7 +97,7 @@ main{
 main h1{
     font-family: var(--font-titulos);
     color: var(--cor4);
-    font-size: 4vh;
+    font-size: 3vh;
     text-align: left;
     font-weight: bolder;
     background-image: linear-gradient(to right,  var(--cor1), rgba(255, 251, 251, 0));
@@ -111,7 +109,7 @@ main h2{
     font-family: var(--font-padrao);
     color:var(--cor3);
     background-image: linear-gradient(to right,  var(--cor2), rgba(255, 251, 251, 0));
-    font-size: 3vh;
+    font-size: 2vh;
     text-align: center;
     font-weight: bolder;
 }
@@ -120,7 +118,8 @@ p{
     text-indent: 30px;
     text-align: justify;
     color: white; 
-    font-family: var(--font-padrao);   
+    font-family: var(--font-padrao);  
+    font-size: 1.2em;
 }
 
 img{
@@ -129,18 +128,12 @@ img{
 
 .imgesquerdo{   
     display: inline-block;
-    width: 50vh;
-    margin: 15px;
-    height: 50%;
-    
+    width: 25vh;
+    margin: 15px;    
 }
 
 .paragrafodireito{
-    display: inline-block;
-    width: 50vh;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
+    padding: 20px;   
 }
 
 .pimgdefundo{
@@ -282,8 +275,16 @@ footer p {
     text-indent: 0px;
 }
 
-header{
-    
+#titulosoremim{
+    font-size: 3em;
+    text-align: left;
+    margin-left: 20px;
+
+}
+#headersobremim{
+    background:black url(imagens/eu2.png) center bottom no-repeat scroll;
+    background-size: cover;
+    height: 800px;
 }
 
 
