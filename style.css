@@ -40,6 +40,7 @@ header{
     font-family: var(--font-titulos);
 }
 
+
 header > p {
     font-size: 1.2em;;
     margin-left: 80px;
@@ -89,8 +90,8 @@ nav > a:hover{
 }
 
 main{
-    min-width: 320px;
-    max-width: 700px;
+    min-width: 300px;
+    max-width: 800px;
     margin: auto;
     background-image: linear-gradient(to top,  var(--cor3), var(--cor1));
 }
@@ -98,17 +99,19 @@ main{
 main h1{
     font-family: var(--font-titulos);
     color: var(--cor4);
-    font-size: 5vh;
-    text-align: center;
+    font-size: 4vh;
+    text-align: left;
     font-weight: bolder;
     background-image: linear-gradient(to right,  var(--cor1), rgba(255, 251, 251, 0));
     margin: 20px 0px;
+    padding-left: 20px;
 }
 
 main h2{
     font-family: var(--font-padrao);
-    color: var(--cor3);
-    font-size: 4vh;
+    color:var(--cor3);
+    background-image: linear-gradient(to right,  var(--cor2), rgba(255, 251, 251, 0));
+    font-size: 3vh;
     text-align: center;
     font-weight: bolder;
 }
@@ -124,23 +127,20 @@ img{
     width: 100%;
 }
 
-.imgesquerdo{
-    width: 400px;    
-}
-
-.container{
-    justify-content: center;
-    align-items: center;
-    display: flex;
+.imgesquerdo{   
+    display: inline-block;
+    width: 50vh;
+    margin: 15px;
+    height: 50%;
+    
 }
 
 .paragrafodireito{
     display: inline-block;
-    text-align: justify;
-    width: 200px;
-    margin: 0px 20px;
-    color: white;
-    font-size: 1.8vh;
+    width: 50vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .pimgdefundo{
@@ -198,6 +198,7 @@ img{
     position: relative;
     padding-bottom: 56.5% ;
     margin: auto;   
+   
 }
 
 #carreira > iframe{
@@ -251,20 +252,18 @@ img{
     height: 90%;
 }
 
-#canal {
-    background-color: var(--cor1);
-}
-#canal > p{
+#pcanal{
     text-align: center;
     padding: 11px;    
+    text-indent: 0px;
 }
 
-#canal > p > a{
+#pcanal> a{
     color: white;
     text-decoration: none;  
        
 }
-#canal > p > a:hover {
+#pcanal > a:hover {
     color: var(--cor4);
     background-color: var(--cor1);
     padding: 5px 5px;
@@ -274,25 +273,57 @@ img{
 }
 
 footer{
-    background-color: var(--cor3);    
+    background-color: var(--cor1);    
 }
 footer p {
     text-align: center;
-    font-size: 0.9em;
-    padding: 10px;
+    font-size: 0.8em;
+    padding: 3px;
+    text-indent: 0px;
 }
 
-.eu{
-
+header{
+    
 }
 
-#baiano{
-    background:black url(imagens/baiano.jpg) center center no-repeat fixed;
+
+section{
+    text-align: left;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--font-padrao);
+    font-size: 2.3vh;
+    margin: auto;
+    
+}
+
+section p{
+    padding-bottom: 2em;
+}
+
+section.eu {
+    background-color: black;
+    box-shadow: inset 6px 6px 6px 13px 0px rgba(0, 0, 0, 0.438);
+    width: 100vh;
+}
+
+section.eu > p {
+    background-color: rgba(0, 0, 0, 0.712);
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1 px 0px black ;
+    width: 50vh;
+}
+section#baiano{
+    background: rgb(0, 0, 0) url(imagens/baiano.jpg) center top no-repeat fixed;
     background-size: cover;
+    
 }
 
 #cettps{
-    background:black url(imagens/cettps.jpg) center center no-repeat fixed;
+    background:black url(imagens/cettps.jpg) center top no-repeat fixed;
     background-size: cover;
 }
 
@@ -302,12 +333,41 @@ footer p {
 }
 
 #cettps{
-    background:black url(imagens/cettps.jpg) center center no-repeat fixed;
+    background:black url(imagens/cettps.jpg) center top no-repeat fixed;
     background-size: cover;
 }
 
 
 #criacaodeconteudo{
-    background:black url(imagens/criaçãodeconteudo.jpeg) center center no-repeat fixed;
+    background:black url(imagens/criacaodeconteudo.jpg) center center no-repeat fixed;
     background-size: cover;
+}
+
+h3{
+    font-family: var(--font-padrao);
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    font-weight: bolde;
+    padding: 20px;
+    
+}
+
+.dp{
+    border: 2px solid var(--cor4);
+        display: inline-block;
+        border-radius: 10px;
+        background-color: var(--cor2);
+        width: 40vh;
+        height: vh;
+            
+}
+
+#dp1 ,#dp2 , #dp3, #dp4, #dp5, #dp6{
+    padding: 30px;
+    margin: auto;
+}
+
+.dp > img{
+    
 }
